@@ -26,4 +26,4 @@ def probability_of_missing(num_of_days: int):
 def main(num_of_days: int):
     _ways_to_miss = ways_to_miss(num_of_days=num_of_days)
     _probability_of_missing = probability_of_missing(num_of_days=num_of_days)
-    print(f"{_probability_of_missing}/{_ways_to_miss}", end="")
+    return f"{_probability_of_missing}/{_ways_to_miss}"
